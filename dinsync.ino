@@ -4,8 +4,6 @@
 #define PIN_STARTSTOP 7
 #define CLOCK_DIVIDER 12
 
-long _clockCounter = 0;
-
 void HandleStart() {
 	digitalWrite(PIN_STARTSTOP, HIGH);
 }
@@ -15,9 +13,7 @@ void HandleContinue() {
 void HandleStop() {
 	digitalWrite(PIN_STARTSTOP, LOW);
 }
-void HandleClock() {
-  _clockCounter ++;
-  
+void HandleClock() { 
   digitalWrite(PIN_TRIGGER, HIGH); 
   delayMicroseconds(2000); 
   digitalWrite(PIN_TRIGGER, LOW); 
