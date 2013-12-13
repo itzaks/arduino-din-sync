@@ -1,8 +1,3 @@
-arduino-din-sync
-================
-
-Send DIN (sync24) sync/start/stop from internal MIDI.
-
 #About
 Sync your old school gear with your new school gear. TR-606 <3 Ableton Live.
 
