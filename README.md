@@ -1,7 +1,12 @@
 arduino-din-sync
 ================
 
-Send DIN (sync24) sync/start/stop from internal MIDI
+Send DIN (sync24) sync/start/stop from internal MIDI.
+
+#About
+Sync your old school gear with your new school gear. TR-606 <3 Ableton Live.
+
+There are some articles on how to do this on the web but this one should be up to date and with start/stop.
 
 #Dependencies
 * Arduino
