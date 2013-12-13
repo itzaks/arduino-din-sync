@@ -11,7 +11,7 @@ Send DIN (sync24) sync/start/stop from internal MIDI
 #Getting started
 ![DIN-connections](http://gieskes.nl/master-clock-generator/images/sync24-Schematics.gif)
 
-Wire up as pictured. Connect to Arduino (eg.) 
+Wire up as pictured. Connect to Arduino 
 
     PIN_TRIGGER 4
     PIN_STARTSTOP 7
