@@ -13,8 +13,8 @@ Send DIN (sync24) sync/start/stop from internal MIDI
 
 Wire up as pictured. Connect to Arduino 
 
-    PIN_TRIGGER 4
-    PIN_STARTSTOP 7
+    PIN_TRIGGER 4 / sync
+    PIN_STARTSTOP 7 
     and ground to GND
 
 Upload code. Boot up hairless midiserial –> send MIDI 
