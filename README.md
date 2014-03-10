@@ -6,7 +6,7 @@ There are some articles on how to do this on the web but this one should be up t
 #Dependencies
 * Arduino
 * [Arduino MIDI library](http://playground.arduino.cc/Main/MIDILibrary)
-* [Hairless MIDIserial](http://projectgus.github.io/hairless-midiserial/] (send MIDI –> Arduino via serial)
+* [Hairless MIDIserial](http://projectgus.github.io/hairless-midiserial/) (send MIDI –> Arduino via serial)
 
 #Getting started
 ![DIN-connections](http://gieskes.nl/master-clock-generator/images/sync24-Schematics.gif)
