@@ -1,14 +1,17 @@
 #About
+
 Sync your old school gear with your new school gear. TR-606 <3 Ableton Live.
 
 There are some articles on how to do this on the web but this one should be up to date and with start/stop.
 
 #Dependencies
+
 * Arduino
 * [Arduino MIDI library](http://playground.arduino.cc/Main/MIDILibrary)
 * [Hairless MIDIserial](http://projectgus.github.io/hairless-midiserial/) (send MIDI –> Arduino via serial)
 
 #Getting started
+
 ![DIN-connections](http://gieskes.nl/master-clock-generator/images/sync24-Schematics.gif)
 
 Wire up as pictured. Connect to Arduino 
