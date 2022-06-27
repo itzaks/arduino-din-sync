@@ -4,6 +4,8 @@
 #define PIN_STARTSTOP 7
 #define CLOCK_DIVIDER 12
 
+MIDI_CREATE_DEFAULT_INSTANCE(); // <-- This was missing. "MIDI.read not defined in scope"
+
 void HandleStart() {
 	digitalWrite(PIN_STARTSTOP, HIGH);
 }
